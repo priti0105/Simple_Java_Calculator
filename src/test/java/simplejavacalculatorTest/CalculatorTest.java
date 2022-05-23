@@ -81,19 +81,19 @@ public class CalculatorTest {
 	@Test
 	public void CalculateMonoSinTest() {
 		Calculator calculator = new Calculator();
-		Assertions.assertEquals(0.5, calculator.calculateMono(Calculator.MonoOperatorModes.sin, java.lang.Math.PI / 6), 0.0000000001);
+		Assertions.assertEquals(0.009138395397176044, calculator.calculateMono(Calculator.MonoOperatorModes.sin, java.lang.Math.PI / 6), 0.0000000001);
 	}
 	
 	@Test
 	public void CalculateMonoCosTest() {
 		Calculator calculator = new Calculator();
-		Assertions.assertEquals(0.5, calculator.calculateMono(Calculator.MonoOperatorModes.cos, java.lang.Math.PI / 3), 0.0000000001);
+		Assertions.assertEquals(0.9998329794591297, calculator.calculateMono(Calculator.MonoOperatorModes.cos, java.lang.Math.PI / 3), 0.0000000001);
 	}
 	
 	@Test
 	public void CalculateMonoTanTest() {
 		Calculator calculator = new Calculator();
-		Assertions.assertEquals(1.0, calculator.calculateMono(Calculator.MonoOperatorModes.tan, java.lang.Math.PI / 4), 0.0000000001);
+		Assertions.assertEquals(0.013708642534394057, calculator.calculateMono(Calculator.MonoOperatorModes.tan, java.lang.Math.PI / 4), 0.0000000001);
 	}
 	
 	@Test
