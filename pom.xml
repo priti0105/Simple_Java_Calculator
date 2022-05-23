@@ -43,14 +43,14 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- Compile TZDB -->
+			<!-- Compile simplejavacalc -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.4.0</version>
 				<executions>
 					<execution>
-						<id>compile-tzdb</id>
+						<id>compile-simplejavacalc</id>
 						<phase>compile</phase>
 						<goals>
 							<goal>java</goal>
@@ -159,10 +159,7 @@
 						</goals>
 						<configuration>
 							<classifier>no-tzdb-sources</classifier>
-							<excludes>
-								<exclude>org/joda/time/tz/data/**</exclude>
-								<exclude>org/joda/time/tz/ZoneInfoCompiler*</exclude>
-							</excludes>
+							<excludes></excludes>
 						</configuration>
 					</execution>
 				</executions>
@@ -365,13 +362,6 @@
 	</build>
 	<!-- ==================================================================== -->
 	<dependencies>
-		<dependency>
-			<groupId>org.joda</groupId>
-			<artifactId>joda-convert</artifactId>
-			<version>1.9.2</version>
-			<scope>compile</scope>
-			<optional>true</optional><!-- mandatory in Scala -->
-		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
