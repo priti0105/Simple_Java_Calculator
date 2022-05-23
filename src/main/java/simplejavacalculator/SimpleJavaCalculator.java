@@ -18,26 +18,17 @@ package simplejavacalculator;
 
 import static java.lang.Double.NaN;
 
-import java.awt.Frame;
-import java.awt.event.WindowEvent;
-
-import junit.framework.Assert;
-import simplejavacalculatorTest.CalculatorTest;
+import org.junit.jupiter.api.Assertions;
 
 public class SimpleJavaCalculator {
 
 	public static void main(String[] args) {
 		try {
 			UI uiCal = new UI();
-			//uiCal.init();
-			//Frame f = new Frame();
-			//f.dispatchEvent(new WindowEvent(f, WindowEvent.WINDOW_CLOSING));
+			uiCal.init();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
 		
-		Calculator calculator = new Calculator();
-		calculator.calculateBi(Calculator.BiOperatorModes.normal, 2.0);
-		Assert.assertEquals(NaN, calculator.calculateBi(Calculator.BiOperatorModes.normal, 3.0));
 	}
 }
