@@ -18,8 +18,6 @@ package simplejavacalculator;
 
 import static java.lang.Double.NaN;
 
-import org.junit.jupiter.api.Assertions;
-
 public class SimpleJavaCalculator {
 
 	public static void main(String[] args) {
