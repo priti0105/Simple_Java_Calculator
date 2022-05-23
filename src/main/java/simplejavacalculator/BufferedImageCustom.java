@@ -9,7 +9,7 @@ import java.awt.*;
  *This class will return an image
  *from a binary data.
  */
-class BufferedImageCustom {
+public class BufferedImageCustom {
    public Image imageReturn() 
       throws IOException {
       Image image;

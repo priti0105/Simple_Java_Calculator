@@ -23,5 +23,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/vishp/Evosuite/evosuite-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Priti/Simple_Java_Calculator/src/test/java/simplejavacalculatorESTest"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

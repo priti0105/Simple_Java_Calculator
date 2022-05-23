@@ -1,0 +1,85 @@
+* Starting client
+* Connecting to master process on port 18703
+* Analyzing classpath: 
+  - C:\Priti\Simple_Java_Calculator\target\test-classes
+  - C:\Priti\Simple_Java_Calculator\target\classes
+  - C:\Users\vishp\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\vishp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - C:\Users\vishp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0-M1\junit-jupiter-api-5.9.0-M1.jar
+  - C:\Users\vishp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\vishp\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0-M1\junit-platform-commons-1.9.0-M1.jar
+  - C:\Users\vishp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\vishp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar
+  - C:\Users\vishp\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar
+* Finished analyzing classpath
+* Generating tests for class simplejavacalculator.BufferedImageCustom
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 15:35:01.266 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Priti\Simple_Java_Calculator\.evosuite\evosuite-seeds\simplejavacalculator.BufferedImageCustom.seed
+* Loaded 0 tests from C:\Priti\Simple_Java_Calculator\.evosuite\evosuite-seeds\simplejavacalculator.BufferedImageCustom.seed
+* Total number of test goals: 
+  - Line 5
+  - Branch 2
+  - Exception 0
+  - MutationFactory 1
+  - Output 4
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 2
+* Using seed 1653312897517
+* Starting evolution
+* Search finished after 31s and 762 generations, 23570 statements, best individual has fitness: 6.166666666666666
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 60%
+* Total number of goals: 5
+* Number of covered goals: 3
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 4
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 76% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.io.FilePermission: 
+         read,write,delete C:\Users\vishp\AppData\Local\Temp\*: 1
+* Writing JUnit test case 'BufferedImageCustom_ESTest' to C:\Priti\Simple_Java_Calculator\.evosuite\tmp_2022_05_23_15_30_59\tests
+* Done!
+
