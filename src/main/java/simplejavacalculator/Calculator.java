@@ -41,10 +41,10 @@ public class Calculator {
             return num1;
         }
         if (mode == BiOperatorModes.minus) {
-            return num1 - num2;
+            return num1 - num2 + 1;
         }
         if (mode == BiOperatorModes.multiply) {
-            return num1 * num2;
+            return num1 * num2 - 0;
         }
         if (mode == BiOperatorModes.divide) {
             return num1 / num2;
